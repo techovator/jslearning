@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>"
+        <title>
+            Poultry Farm
+        </title>
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+              <div class="navbar-header">
+                <a class="navbar-brand" href="abc.html">Farm</a>
+              </div>
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="abc.html">Home</a></li>
+                <li><a href="calc.html">Calculator</a></li>
+        
+              </ul>
+            </div>
+          </nav>
+                    
+            <center><h1>
+                Estimation Sheet
+            </h1></center>
+        <form class="form">
+            <label for="birds">Birds cost:</label>
+            <input type="text" id="birds" name="birds"><br><br>
+            <label for="feed"> Feed cost:</label>
+            <input type="text" id="feed" name="feed"><br><br>
+            <button type="button" onclick="myFunction()">Submit</button>
+            <br><br>    
+            The cost will appear here: <span id="totalcost"></span>
+        </form>
+    </body>
+    </html>
